@@ -1,0 +1,729 @@
+[2026-11-16 02:50:39] TElocal SRR5164883 start
+INFO  @ Mon, 16 Nov 2026 02:50:39: 
+# ARGUMENTS LIST:
+# name = SRR5164883
+# BAM file = /home/chankyle/rnaseq_te/results/bam_processed/SRR5164883.Aligned.out.dedup.sorted.bam
+# GTF file = /home/chankyle/ref/GRCH38/gencode/gencode.v44.primary_assembly.annotation.gtf 
+# TE file = /home/chankyle/ref/GRCH38/te_local_index/GRCm38_GENCODE_rmsk_TE.gtf.locInd 
+# multi-mapper mode = multi 
+# stranded = reverse 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Mon, 16 Nov 2026 02:50:39: Processing annotation files ...
+ 
+INFO  @ Mon, 16 Nov 2026 02:50:39: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+900000 GTF lines processed.
+1000000 GTF lines processed.
+1100000 GTF lines processed.
+1200000 GTF lines processed.
+1300000 GTF lines processed.
+1400000 GTF lines processed.
+1500000 GTF lines processed.
+1600000 GTF lines processed.
+INFO  @ Mon, 16 Nov 2026 03:00:00: Done building gene index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 03:00:00: Attempting to load TE index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 03:00:49: TE index loaded ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 03:00:49: 
+Reading sample file ... 
+ 
+uniq te counts = 624415.9999999967 
+.......start iterative optimization ..........
+multi-reads = 70101 SQUAREM iteraton [1]
+num of multi reads = 70101
+total multi counts = 64269.99999999981
+num of multi reads = 70101
+total multi counts = 64269.999999999876
+alpha = 1.0, SQUAREM iteraton [2]
+num of multi reads = 70101
+total multi counts = 64269.999999999585
+num of multi reads = 70101
+total multi counts = 64270.000000000065
+alpha = 1.2394959631408493.
+ Performing a stabilization step.
+num of multi reads = 70101
+total multi counts = 64270.00000000034
+alpha = 1.2394959631408493, SQUAREM iteraton [3]
+num of multi reads = 70101
+total multi counts = 64269.99999999988
+num of multi reads = 70101
+total multi counts = 64269.9999999997
+alpha = 1.9222722369217162.
+ Performing a stabilization step.
+num of multi reads = 70101
+total multi counts = 64269.99999999985
+alpha = 1.9222722369217162, SQUAREM iteraton [4]
+num of multi reads = 70101
+total multi counts = 64269.999999999985
+num of multi reads = 70101
+total multi counts = 64270.00000000001
+rNome < OPT_TOL 
+converge at iteration 4
+num of multi reads = 70101
+TE counts total 688685.9999999964
+Gene counts total 15583255.033427514
+
+In library /home/chankyle/rnaseq_te/results/bam_processed/SRR5164883.Aligned.out.dedup.sorted.bam:
+Total annotated reads = 16271941.03342751
+Total non-uniquely mapped reads = 699126
+Total unannotated reads = 1857269
+
+INFO  @ Mon, 16 Nov 2026 03:40:37: Finished processing sample file 
+[2026-11-16 03:41:39] TElocal SRR5164884 start
+INFO  @ Mon, 16 Nov 2026 03:41:39: 
+# ARGUMENTS LIST:
+# name = SRR5164884
+# BAM file = /home/chankyle/rnaseq_te/results/bam_processed/SRR5164884.Aligned.out.dedup.sorted.bam
+# GTF file = /home/chankyle/ref/GRCH38/gencode/gencode.v44.primary_assembly.annotation.gtf 
+# TE file = /home/chankyle/ref/GRCH38/te_local_index/GRCm38_GENCODE_rmsk_TE.gtf.locInd 
+# multi-mapper mode = multi 
+# stranded = reverse 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Mon, 16 Nov 2026 03:41:39: Processing annotation files ...
+ 
+INFO  @ Mon, 16 Nov 2026 03:41:39: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+900000 GTF lines processed.
+1000000 GTF lines processed.
+1100000 GTF lines processed.
+1200000 GTF lines processed.
+1300000 GTF lines processed.
+1400000 GTF lines processed.
+1500000 GTF lines processed.
+1600000 GTF lines processed.
+INFO  @ Mon, 16 Nov 2026 03:50:57: Done building gene index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 03:50:57: Attempting to load TE index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 03:51:33: TE index loaded ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 03:51:33: 
+Reading sample file ... 
+ 
+uniq te counts = 287093.0000000045 
+.......start iterative optimization ..........
+multi-reads = 36383 SQUAREM iteraton [1]
+num of multi reads = 36383
+total multi counts = 31849.000000000025
+num of multi reads = 36383
+total multi counts = 31848.999999999938
+alpha = 1.0, SQUAREM iteraton [2]
+num of multi reads = 36383
+total multi counts = 31849.000000000044
+num of multi reads = 36383
+total multi counts = 31849.000000000033
+alpha = 1.5023185131873407.
+ Performing a stabilization step.
+num of multi reads = 36383
+total multi counts = 31849.000000000004
+alpha = 1.5023185131873407, SQUAREM iteraton [3]
+num of multi reads = 36383
+total multi counts = 31848.99999999997
+num of multi reads = 36383
+total multi counts = 31848.99999999996
+alpha = 2.399494021158893.
+ Performing a stabilization step.
+num of multi reads = 36383
+total multi counts = 31848.99999999996
+alpha = 2.399494021158893, SQUAREM iteraton [4]
+num of multi reads = 36383
+total multi counts = 31848.999999999938
+num of multi reads = 36383
+total multi counts = 31849.00000000001
+alpha = 2.6232089573218147.
+ Performing a stabilization step.
+num of multi reads = 36383
+total multi counts = 31848.99999999994
+alpha = 2.6232089573218147, SQUAREM iteraton [5]
+num of multi reads = 36383
+total multi counts = 31848.999999999996
+num of multi reads = 36383
+total multi counts = 31848.99999999994
+rNome < OPT_TOL 
+converge at iteration 5
+num of multi reads = 36383
+TE counts total 318942.0000000009
+Gene counts total 9328781.78354877
+
+In library /home/chankyle/rnaseq_te/results/bam_processed/SRR5164884.Aligned.out.dedup.sorted.bam:
+Total annotated reads = 9647723.78354877
+Total non-uniquely mapped reads = 367056
+Total unannotated reads = 686650
+
+INFO  @ Mon, 16 Nov 2026 04:14:20: Finished processing sample file 
+[2026-11-16 04:15:22] TElocal SRR5164885 start
+INFO  @ Mon, 16 Nov 2026 04:15:22: 
+# ARGUMENTS LIST:
+# name = SRR5164885
+# BAM file = /home/chankyle/rnaseq_te/results/bam_processed/SRR5164885.Aligned.out.dedup.sorted.bam
+# GTF file = /home/chankyle/ref/GRCH38/gencode/gencode.v44.primary_assembly.annotation.gtf 
+# TE file = /home/chankyle/ref/GRCH38/te_local_index/GRCm38_GENCODE_rmsk_TE.gtf.locInd 
+# multi-mapper mode = multi 
+# stranded = reverse 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Mon, 16 Nov 2026 04:15:22: Processing annotation files ...
+ 
+INFO  @ Mon, 16 Nov 2026 04:15:22: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+900000 GTF lines processed.
+1000000 GTF lines processed.
+1100000 GTF lines processed.
+1200000 GTF lines processed.
+1300000 GTF lines processed.
+1400000 GTF lines processed.
+1500000 GTF lines processed.
+1600000 GTF lines processed.
+INFO  @ Mon, 16 Nov 2026 04:24:44: Done building gene index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 04:24:44: Attempting to load TE index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 04:25:15: TE index loaded ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 04:25:15: 
+Reading sample file ... 
+ 
+uniq te counts = 448149.9999999921 
+.......start iterative optimization ..........
+multi-reads = 64121 SQUAREM iteraton [1]
+num of multi reads = 64121
+total multi counts = 58800.0000000002
+num of multi reads = 64121
+total multi counts = 58800.00000000027
+alpha = 1.0, SQUAREM iteraton [2]
+num of multi reads = 64121
+total multi counts = 58800.000000000044
+num of multi reads = 64121
+total multi counts = 58800.00000000003
+alpha = 1.1956792739631046.
+ Performing a stabilization step.
+num of multi reads = 64121
+total multi counts = 58800.00000000019
+alpha = 1.1956792739631046, SQUAREM iteraton [3]
+num of multi reads = 64121
+total multi counts = 58799.99999999984
+num of multi reads = 64121
+total multi counts = 58799.999999999854
+r2Nome < OPT_TOL 
+converge at iteration 3
+num of multi reads = 64121
+TE counts total 506949.99999998824
+Gene counts total 19294014.46797064
+
+In library /home/chankyle/rnaseq_te/results/bam_processed/SRR5164885.Aligned.out.dedup.sorted.bam:
+Total annotated reads = 19800964.46797063
+Total non-uniquely mapped reads = 717220
+Total unannotated reads = 1251325
+
+INFO  @ Mon, 16 Nov 2026 05:10:59: Finished processing sample file 
+[2026-11-16 05:12:03] TElocal SRR5164886 start
+INFO  @ Mon, 16 Nov 2026 05:12:03: 
+# ARGUMENTS LIST:
+# name = SRR5164886
+# BAM file = /home/chankyle/rnaseq_te/results/bam_processed/SRR5164886.Aligned.out.dedup.sorted.bam
+# GTF file = /home/chankyle/ref/GRCH38/gencode/gencode.v44.primary_assembly.annotation.gtf 
+# TE file = /home/chankyle/ref/GRCH38/te_local_index/GRCm38_GENCODE_rmsk_TE.gtf.locInd 
+# multi-mapper mode = multi 
+# stranded = reverse 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Mon, 16 Nov 2026 05:12:03: Processing annotation files ...
+ 
+INFO  @ Mon, 16 Nov 2026 05:12:03: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+900000 GTF lines processed.
+1000000 GTF lines processed.
+1100000 GTF lines processed.
+1200000 GTF lines processed.
+1300000 GTF lines processed.
+1400000 GTF lines processed.
+1500000 GTF lines processed.
+1600000 GTF lines processed.
+INFO  @ Mon, 16 Nov 2026 05:21:21: Done building gene index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 05:21:21: Attempting to load TE index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 05:21:53: TE index loaded ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 05:21:53: 
+Reading sample file ... 
+ 
+uniq te counts = 830549.000000013 
+.......start iterative optimization ..........
+multi-reads = 83975 SQUAREM iteraton [1]
+num of multi reads = 83975
+total multi counts = 77198.99999999956
+num of multi reads = 83975
+total multi counts = 77199.00000000025
+alpha = 1.0, SQUAREM iteraton [2]
+num of multi reads = 83975
+total multi counts = 77199.0000000002
+num of multi reads = 83975
+total multi counts = 77198.99999999955
+alpha = 1.2183003207897338.
+ Performing a stabilization step.
+num of multi reads = 83975
+total multi counts = 77198.99999999955
+alpha = 1.2183003207897338, SQUAREM iteraton [3]
+num of multi reads = 83975
+total multi counts = 77198.99999999971
+num of multi reads = 83975
+total multi counts = 77198.99999999942
+r2Nome < OPT_TOL 
+converge at iteration 3
+num of multi reads = 83975
+TE counts total 907748.0000000133
+Gene counts total 17304227.292961676
+
+In library /home/chankyle/rnaseq_te/results/bam_processed/SRR5164886.Aligned.out.dedup.sorted.bam:
+Total annotated reads = 18211975.29296169
+Total non-uniquely mapped reads = 757002
+Total unannotated reads = 2451698
+
+INFO  @ Mon, 16 Nov 2026 06:05:05: Finished processing sample file 
+[2026-11-16 06:06:45] TElocal SRR5164887 start
+INFO  @ Mon, 16 Nov 2026 06:06:45: 
+# ARGUMENTS LIST:
+# name = SRR5164887
+# BAM file = /home/chankyle/rnaseq_te/results/bam_processed/SRR5164887.Aligned.out.dedup.sorted.bam
+# GTF file = /home/chankyle/ref/GRCH38/gencode/gencode.v44.primary_assembly.annotation.gtf 
+# TE file = /home/chankyle/ref/GRCH38/te_local_index/GRCm38_GENCODE_rmsk_TE.gtf.locInd 
+# multi-mapper mode = multi 
+# stranded = reverse 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Mon, 16 Nov 2026 06:06:45: Processing annotation files ...
+ 
+INFO  @ Mon, 16 Nov 2026 06:06:45: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+900000 GTF lines processed.
+1000000 GTF lines processed.
+1100000 GTF lines processed.
+1200000 GTF lines processed.
+1300000 GTF lines processed.
+1400000 GTF lines processed.
+1500000 GTF lines processed.
+1600000 GTF lines processed.
+INFO  @ Mon, 16 Nov 2026 06:16:16: Done building gene index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 06:16:16: Attempting to load TE index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 06:16:57: TE index loaded ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 06:16:57: 
+Reading sample file ... 
+ 
+uniq te counts = 435391.9999999946 
+.......start iterative optimization ..........
+multi-reads = 61944 SQUAREM iteraton [1]
+num of multi reads = 61944
+total multi counts = 56563.99999999985
+num of multi reads = 61944
+total multi counts = 56563.999999999985
+alpha = 1.0, SQUAREM iteraton [2]
+num of multi reads = 61944
+total multi counts = 56563.999999999935
+num of multi reads = 61944
+total multi counts = 56564.00000000012
+alpha = 1.3343914478565186.
+ Performing a stabilization step.
+num of multi reads = 61944
+total multi counts = 56564.00000000004
+alpha = 1.3343914478565186, SQUAREM iteraton [3]
+num of multi reads = 61944
+total multi counts = 56563.99999999994
+num of multi reads = 61944
+total multi counts = 56564.00000000024
+alpha = 1.9401648936541236.
+ Performing a stabilization step.
+num of multi reads = 61944
+total multi counts = 56563.99999999991
+alpha = 1.9401648936541236, SQUAREM iteraton [4]
+num of multi reads = 61944
+total multi counts = 56563.99999999978
+num of multi reads = 61944
+total multi counts = 56563.99999999998
+rNome < OPT_TOL 
+converge at iteration 4
+num of multi reads = 61944
+TE counts total 491955.9999999915
+Gene counts total 17246622.140974816
+
+In library /home/chankyle/rnaseq_te/results/bam_processed/SRR5164887.Aligned.out.dedup.sorted.bam:
+Total annotated reads = 17738578.14097481
+Total non-uniquely mapped reads = 618939
+Total unannotated reads = 1042389
+
+INFO  @ Mon, 16 Nov 2026 06:58:06: Finished processing sample file 
+[2026-11-16 06:59:11] TElocal SRR5164888 start
+INFO  @ Mon, 16 Nov 2026 06:59:11: 
+# ARGUMENTS LIST:
+# name = SRR5164888
+# BAM file = /home/chankyle/rnaseq_te/results/bam_processed/SRR5164888.Aligned.out.dedup.sorted.bam
+# GTF file = /home/chankyle/ref/GRCH38/gencode/gencode.v44.primary_assembly.annotation.gtf 
+# TE file = /home/chankyle/ref/GRCH38/te_local_index/GRCm38_GENCODE_rmsk_TE.gtf.locInd 
+# multi-mapper mode = multi 
+# stranded = reverse 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Mon, 16 Nov 2026 06:59:11: Processing annotation files ...
+ 
+INFO  @ Mon, 16 Nov 2026 06:59:11: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+900000 GTF lines processed.
+1000000 GTF lines processed.
+1100000 GTF lines processed.
+1200000 GTF lines processed.
+1300000 GTF lines processed.
+1400000 GTF lines processed.
+1500000 GTF lines processed.
+1600000 GTF lines processed.
+INFO  @ Mon, 16 Nov 2026 07:08:28: Done building gene index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 07:08:28: Attempting to load TE index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 07:09:02: TE index loaded ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 07:09:02: 
+Reading sample file ... 
+ 
+uniq te counts = 415928.9999999935 
+.......start iterative optimization ..........
+multi-reads = 54559 SQUAREM iteraton [1]
+num of multi reads = 54559
+total multi counts = 50025.99999999982
+num of multi reads = 54559
+total multi counts = 50025.99999999996
+alpha = 1.0, SQUAREM iteraton [2]
+num of multi reads = 54559
+total multi counts = 50026.00000000004
+num of multi reads = 54559
+total multi counts = 50026.000000000044
+alpha = 1.1894453353731478.
+ Performing a stabilization step.
+num of multi reads = 54559
+total multi counts = 50025.999999999876
+alpha = 1.1894453353731478, SQUAREM iteraton [3]
+num of multi reads = 54559
+total multi counts = 50026.000000000226
+num of multi reads = 54559
+total multi counts = 50025.999999999935
+r2Nome < OPT_TOL 
+converge at iteration 3
+num of multi reads = 54559
+TE counts total 465954.9999999887
+Gene counts total 15921574.774073657
+
+In library /home/chankyle/rnaseq_te/results/bam_processed/SRR5164888.Aligned.out.dedup.sorted.bam:
+Total annotated reads = 16387529.774073645
+Total non-uniquely mapped reads = 589574
+Total unannotated reads = 1109841
+
+INFO  @ Mon, 16 Nov 2026 07:46:02: Finished processing sample file 
+[2026-11-16 07:47:05] TElocal SRR5164889 start
+INFO  @ Mon, 16 Nov 2026 07:47:06: 
+# ARGUMENTS LIST:
+# name = SRR5164889
+# BAM file = /home/chankyle/rnaseq_te/results/bam_processed/SRR5164889.Aligned.out.dedup.sorted.bam
+# GTF file = /home/chankyle/ref/GRCH38/gencode/gencode.v44.primary_assembly.annotation.gtf 
+# TE file = /home/chankyle/ref/GRCH38/te_local_index/GRCm38_GENCODE_rmsk_TE.gtf.locInd 
+# multi-mapper mode = multi 
+# stranded = reverse 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Mon, 16 Nov 2026 07:47:06: Processing annotation files ...
+ 
+INFO  @ Mon, 16 Nov 2026 07:47:06: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+900000 GTF lines processed.
+1000000 GTF lines processed.
+1100000 GTF lines processed.
+1200000 GTF lines processed.
+1300000 GTF lines processed.
+1400000 GTF lines processed.
+1500000 GTF lines processed.
+1600000 GTF lines processed.
+INFO  @ Mon, 16 Nov 2026 07:56:28: Done building gene index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 07:56:28: Attempting to load TE index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 07:56:58: TE index loaded ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 07:56:58: 
+Reading sample file ... 
+ 
+uniq te counts = 1317086.0000000063 
+.......start iterative optimization ..........
+multi-reads = 138172 SQUAREM iteraton [1]
+num of multi reads = 138172
+total multi counts = 128544.00000000029
+num of multi reads = 138172
+total multi counts = 128544.00000000045
+alpha = 1.0, SQUAREM iteraton [2]
+num of multi reads = 138172
+total multi counts = 128543.9999999997
+num of multi reads = 138172
+total multi counts = 128543.99999999997
+alpha = 1.1760976054802712.
+ Performing a stabilization step.
+num of multi reads = 138172
+total multi counts = 128543.99999999891
+alpha = 1.1760976054802712, SQUAREM iteraton [3]
+num of multi reads = 138172
+total multi counts = 128544.00000000003
+num of multi reads = 138172
+total multi counts = 128543.99999999942
+r2Nome < OPT_TOL 
+converge at iteration 3
+num of multi reads = 138172
+TE counts total 1445629.9999999746
+Gene counts total 26593701.56187481
+
+In library /home/chankyle/rnaseq_te/results/bam_processed/SRR5164889.Aligned.out.dedup.sorted.bam:
+Total annotated reads = 28039331.561874785
+Total non-uniquely mapped reads = 1084770
+Total unannotated reads = 3669301
+
+INFO  @ Mon, 16 Nov 2026 08:56:18: Finished processing sample file 
+[2026-11-16 08:57:25] TElocal SRR5164890 start
+INFO  @ Mon, 16 Nov 2026 08:57:25: 
+# ARGUMENTS LIST:
+# name = SRR5164890
+# BAM file = /home/chankyle/rnaseq_te/results/bam_processed/SRR5164890.Aligned.out.dedup.sorted.bam
+# GTF file = /home/chankyle/ref/GRCH38/gencode/gencode.v44.primary_assembly.annotation.gtf 
+# TE file = /home/chankyle/ref/GRCH38/te_local_index/GRCm38_GENCODE_rmsk_TE.gtf.locInd 
+# multi-mapper mode = multi 
+# stranded = reverse 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Mon, 16 Nov 2026 08:57:25: Processing annotation files ...
+ 
+INFO  @ Mon, 16 Nov 2026 08:57:25: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+900000 GTF lines processed.
+1000000 GTF lines processed.
+1100000 GTF lines processed.
+1200000 GTF lines processed.
+1300000 GTF lines processed.
+1400000 GTF lines processed.
+1500000 GTF lines processed.
+1600000 GTF lines processed.
+INFO  @ Mon, 16 Nov 2026 09:06:47: Done building gene index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 09:06:47: Attempting to load TE index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 09:07:20: TE index loaded ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 09:07:20: 
+Reading sample file ... 
+ 
+uniq te counts = 675526.0000000035 
+.......start iterative optimization ..........
+multi-reads = 94642 SQUAREM iteraton [1]
+num of multi reads = 94642
+total multi counts = 86746.99999999975
+num of multi reads = 94642
+total multi counts = 86747.00000000006
+alpha = 1.0, SQUAREM iteraton [2]
+num of multi reads = 94642
+total multi counts = 86746.99999999993
+num of multi reads = 94642
+total multi counts = 86747.00000000017
+alpha = 1.3899006353678114.
+ Performing a stabilization step.
+num of multi reads = 94642
+total multi counts = 86747.00000000023
+alpha = 1.3899006353678114, SQUAREM iteraton [3]
+num of multi reads = 94642
+total multi counts = 86747.0000000001
+num of multi reads = 94642
+total multi counts = 86746.99999999999
+alpha = 1.780125481658553.
+ Performing a stabilization step.
+num of multi reads = 94642
+total multi counts = 86746.9999999999
+alpha = 1.780125481658553, SQUAREM iteraton [4]
+num of multi reads = 94642
+total multi counts = 86747.00000000017
+num of multi reads = 94642
+total multi counts = 86746.99999999949
+rNome < OPT_TOL 
+converge at iteration 4
+num of multi reads = 94642
+TE counts total 762273.0000000095
+Gene counts total 21057719.308149666
+
+In library /home/chankyle/rnaseq_te/results/bam_processed/SRR5164890.Aligned.out.dedup.sorted.bam:
+Total annotated reads = 21819992.308149677
+Total non-uniquely mapped reads = 875513
+Total unannotated reads = 1668596
+
+INFO  @ Mon, 16 Nov 2026 09:52:02: Finished processing sample file 
+[2026-11-16 09:53:04] TElocal SRR5164891 start
+INFO  @ Mon, 16 Nov 2026 09:53:04: 
+# ARGUMENTS LIST:
+# name = SRR5164891
+# BAM file = /home/chankyle/rnaseq_te/results/bam_processed/SRR5164891.Aligned.out.dedup.sorted.bam
+# GTF file = /home/chankyle/ref/GRCH38/gencode/gencode.v44.primary_assembly.annotation.gtf 
+# TE file = /home/chankyle/ref/GRCH38/te_local_index/GRCm38_GENCODE_rmsk_TE.gtf.locInd 
+# multi-mapper mode = multi 
+# stranded = reverse 
+# number of iteration = 100
+# Alignments grouped by read ID = False
+
+ 
+INFO  @ Mon, 16 Nov 2026 09:53:04: Processing annotation files ...
+ 
+INFO  @ Mon, 16 Nov 2026 09:53:04: Building gene index ....... 
+ 
+100000 GTF lines processed.
+200000 GTF lines processed.
+300000 GTF lines processed.
+400000 GTF lines processed.
+500000 GTF lines processed.
+600000 GTF lines processed.
+700000 GTF lines processed.
+800000 GTF lines processed.
+900000 GTF lines processed.
+1000000 GTF lines processed.
+1100000 GTF lines processed.
+1200000 GTF lines processed.
+1300000 GTF lines processed.
+1400000 GTF lines processed.
+1500000 GTF lines processed.
+1600000 GTF lines processed.
+INFO  @ Mon, 16 Nov 2026 10:02:19: Done building gene index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 10:02:19: Attempting to load TE index ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 10:02:52: TE index loaded ...... 
+ 
+INFO  @ Mon, 16 Nov 2026 10:02:52: 
+Reading sample file ... 
+ 
+uniq te counts = 665466.0000000001 
+.......start iterative optimization ..........
+multi-reads = 104133 SQUAREM iteraton [1]
+num of multi reads = 104133
+total multi counts = 98042.00000000006
+num of multi reads = 104133
+total multi counts = 98041.9999999999
+alpha = 1.0, SQUAREM iteraton [2]
+num of multi reads = 104133
+total multi counts = 98042.00000000013
+num of multi reads = 104133
+total multi counts = 98041.99999999917
+alpha = 1.202824380380881.
+ Performing a stabilization step.
+num of multi reads = 104133
+total multi counts = 98042.00000000041
+alpha = 1.202824380380881, SQUAREM iteraton [3]
+num of multi reads = 104133
+total multi counts = 98041.99999999956
+num of multi reads = 104133
+total multi counts = 98041.9999999995
+alpha = 1.8089944969390361.
+ Performing a stabilization step.
+num of multi reads = 104133
+total multi counts = 98041.99999999977
+alpha = 1.8089944969390361, SQUAREM iteraton [4]
+num of multi reads = 104133
+total multi counts = 98042.00000000016
+num of multi reads = 104133
+total multi counts = 98041.99999999977
+rNome < OPT_TOL 
+converge at iteration 4
+num of multi reads = 104133
+TE counts total 763508.0000000007
+Gene counts total 25500821.659978453
+
+In library /home/chankyle/rnaseq_te/results/bam_processed/SRR5164891.Aligned.out.dedup.sorted.bam:
+Total annotated reads = 26264329.659978453
+Total non-uniquely mapped reads = 997518
+Total unannotated reads = 1618764
+
+INFO  @ Mon, 16 Nov 2026 10:54:42: Finished processing sample file 

@@ -1,0 +1,19 @@
+[2026-11-16 02:50:36] skip SRR5164883 (trimmed already)
+[2026-11-16 02:50:36] skip SRR5164884 (trimmed already)
+[2026-11-16 02:50:36] skip SRR5164885 (trimmed already)
+[2026-11-16 02:50:36] skip SRR5164886 (trimmed already)
+[2026-11-16 02:50:36] skip SRR5164887 (trimmed already)
+[2026-11-16 02:50:36] skip SRR5164888 (trimmed already)
+[2026-11-16 02:50:36] skip SRR5164889 (trimmed already)
+[2026-11-16 02:50:36] skip SRR5164890 (trimmed already)
+[2026-11-16 02:50:36] skip SRR5164891 (trimmed already)
+[2026-11-16 02:50:36] Running MultiQC
+
+/// MultiQC 🔍 v1.35
+
+       file_search | Search path: /home/chankyle/rnaseq_te/results/qc
+            fastqc | Found 18 reports
+     write_results | Data        : results/qc/multiqc_data   (overwritten)
+     write_results | Report      : results/qc/multiqc_report.html   (overwritten)
+           multiqc | MultiQC complete
+[2026-11-16 02:50:39] QC and trim done
