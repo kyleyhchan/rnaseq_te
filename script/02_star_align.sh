@@ -39,14 +39,25 @@ while IFS=$'\t' read -r sample _ <&3; do
         --genomeDir "$STAR_INDEX" \
         --readFilesIn "${reads[@]}" \
         --readFilesCommand zcat \
-        --outFilterMultimapNmax 100 --outFilterMismatchNmax 5 \
-        --winAnchorMultimapNmax 200 --alignEndsType EndToEnd \
-        --alignIntronMax 1 --alignMatesGapMax 350 \
+        --outFilterMultimapNmax 100 \
+        --outFilterMismatchNmax 5 \
+        --winAnchorMultimapNmax 200 \
+        --alignEndsType EndToEnd \
+        --alignIntronMax 1 \
+        --alignMatesGapMax 350 \
         --outSAMattrRGline ID:${sample} SM:${sample} LB:${sample} PL:ILLUMINA \
         --outSAMtype BAM Unsorted \
         --outFileNamePrefix "$BAM_DIR/$sample." < /dev/null
+# TE specific
+# --outFilterMultimapNmax = maximum map to 100 location
+# --winAnchorMultimapNmax = allow match up to 200 loci
     
-    
+# Alignment Stringency
+# --outFilterMismatchNmax = allow up to 5 mismatch
+# --alignRndsType EndToEnd = No soft-clip allowed
 
+#Splicing turned of 
+# --alignIntroMax 1 = max intron size is 1
+# --alignMatesGapMax 350 = two mates of a pair = at most 350 bp apart.
 done 3< <(list_samples)
 log "Alignment is done"
