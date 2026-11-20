@@ -21,7 +21,8 @@ while IFS=$'\t' read -r sample _ <&3; do
     log "Running $sample"
     # Filter: unique, properly paired, primary alignments only, then sort
     samtools view -@ "$THREADS" -u -q 255 -f 2 -F 0x904 "$bam" \
-    | samtools sort -@ "$THREADS" -m 2G -T "$out_basename.filtered.bam"
+    | samtools sort -@ "$THREADS" -m 2G -T "$out_basename.tmp" \
+    -o "$out_basename.filtered.bam"
     log "$sample - filter is done"
     # INDEX
     samtools index -@ "$THREADS" "$out_basename.filtered.bam"
